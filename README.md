@@ -1,107 +1,96 @@
-<p align="center">
-<a href="https://designrevision.com/downloads/shards-dashboard-lite-react/">
-<img src="assets/preview.png" width="250" />
-</a>
-</p>
+## [Material Kit - React](https://material-kit-react.devias.io/) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?text=%F0%9F%9A%A8Devias%20Freebie%20Alert%20-%20An%20awesome%20ready-to-use%20register%20page%20made%20with%20%23material%20%23react%0D%0Ahttps%3A%2F%2Fdevias.io%20%23createreactapp%20%23devias%20%23material%20%23freebie%20%40devias-io)
 
-<h1 align="center" style="border-bottom: none !important; margin-bottom: 5px !important;"><a href="https://designrevision.com/downloads/shards-dashboard-lite-react/">Shards Dashboard React</a></h1>
-<p align="center">
-  <a href="#">
-    <img src="https://img.shields.io/badge/License-MIT-brightgreen.svg" />
-  </a>
-  <a href="https://twitter.com/designrevision">
-    <img src="https://img.shields.io/twitter/follow/DesignRevision.svg?style=social&label=Follow" />
-  </a>
-</p>
+![license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-<p align="center">
-A free React admin dashboard template pack featuring a modern design system <br />  and lots of custom templates and components.
-</p>
+[![Material Kit - React](https://github.com/devias-io/material-kit-react/blob/main/public/static/thumbnail.png)](https://material-kit-react.devias.io/)
 
-<p align="center">
-  <a href="https://designrevision.com/demo/shards-dashboard-lite-react">
-    <img height="55px" src="assets/btn-live-preview.png" />
-  </a>
-  <a href="https://designrevision.com/downloads/shards-dashboard-lite-react">
-    <img height="55px" src="assets/btn-learn-more.png" />
-  </a>
-</p>
+> Free React Admin Dashboard made with [MUI's](https://mui.com/?ref=devias-io) components, [React](https://reactjs.org/?ref=devias-io) and of course [Next.js](https://github.com/vercel/next.js/?ref=devias-io) to boost your app development process!
 
-<br />
+## Demo
 
-<p align="center">
-<a href="https://designrevision.com/downloads/shards-dashboard-lite-react">
-<img src="assets/demo-preview.gif" width="650" />
-</a>
-</p>
+- [Dashboard Page](https://material-kit-react.devias.io)
+- [Users Page](https://material-kit-react.devias.io/customers)
+- [Products Page](https://material-kit-react.devias.io/products)
+- [Register Page](https://material-kit-react.devias.io/register)
+- [Login Page](https://material-kit-react.devias.io/login)
+- [Account Page](https://material-kit-react.devias.io/account)
+- [Settings Page](https://material-kit-react.devias.io/settings)
 
-<br />
+## Free Figma Community File
+ - [Duplicate File](https://www.figma.com/community/file/1039837897183395483/Devias-Dashboard-Design-Library-Kit)
 
-> ✨ **Note:** You can download the Sketch files from the official product page.
+## Upgrade to PRO Version
 
-<br />
+We also have a pro version of this product which bundles even more pages and components if you want to save more time and design efforts :)
 
-### Quick Start
+| Free Version (this one)  | [Material Kit Pro - React](https://material-ui.com/store/items/devias-kit-pro/) |
+| ------------------------ | :----------------------------------------------------------- |
+| **7** Demo Pages         | **40+** demo pages
+| -                        | ✔ Dark & light mode
+| -                        | ✔ Authentication with *Amplify**, **Auth0**, **JWT** and **Firebase**
+| -                        | ✔ TypeScript version - for Standard Plus and Extended license
+| -                        | ✔ Design files (sketch & figma) - for Standard Plus and Extended license
+| -                        | ✔ Complete users flows
 
-* Install dependencies by running `yarn` or `npm install`.
-* Run `yarn start` or `npm run start` to start the local development server.
-* 😎 **That's it!** You're ready to start building awesome dashboards.
+## Quick start
 
-<br />
+- [Download from Github](https://github.com/devias-io/material-kit-react/archive/master.zip) or [Download from Devias](https://devias.io/products/material-kit-react) or clone the repo: `git clone https://github.com/devias-io/material-kit-react.git`
 
-### Project Structure
+- Make sure your NodeJS and npm versions are up to date for `React 17`
 
-- This project is bootstrapped using [Create React App](https://github.com/facebook/create-react-app).
-- **Flux** is used for state management and all Flux specific files are located inside `src/flux`. Transitioning to a more robust solution such as Redux is also fairly simple.
-- All primary templates are located inside `src/views`.
-- There is only one single layout defined (Default) inside `src/layouts`, however, the current structure provides an easy way of extending the UI kit. 
-- The `src/components` directory hosts all template-specific subcomponents in their own subdirectory.
-- The layout styles inherited from Shards Dashboard are pulled in from the `src/shards-dashboard` submodule inside `src/App.js`.
-- Other extra styles specific to the libraries used are located inside `src/assets`.
-- The `src/utils` directory contains generic Chart.js utilities.
+- Install dependencies: `npm install` or `yarn`
 
-<br />
+- Start the server: `npm run dev` or `yarn dev`
 
-### Available Scripts
+- Views are on: `localhost:3000`
 
-### `npm start`
+## File Structure
 
-Runs the app in the development mode.
+Within the download you'll find the following directories and files:
 
-### `npm test`
+```
+material-kit-react
 
-Launches the test runner in the interactive watch mode.
+┌── .eslintrc.json
+├── .gitignore
+├── CHANGELOG.md
+├── jsconfig.json
+├── LICENSE.md
+├── package.json
+├── README.md
+├── public
+└── src
+	├── __mocks__
+	├── components
+	├── icons
+	├── theme
+	├── utils
+	└── pages
+		├── 404.js
+		├── _app.js
+		├── _document.js
+		├── account.js
+		├── customers.js
+		├── index.js
+		├── login.js
+		├── products.js
+		├── register.js
+		└── settings.js
+```
 
-### `npm run build`
+## Resources
 
-Builds the app for production to the `build` folder.
+- More freebies like this one: <https://devias.io>
 
-### `npm run eject`
+## Reporting Issues:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- [Github Issues Page](https://github.com/devias-io/react-material-dashboard/issues?ref=devias-io)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## License
 
+- Licensed under MIT (https://github.com/devias-io/react-material-dashboard/blob/master/LICENSE.md)
 
-<br />
+## Contact Us
 
-### 🌟 Pro Version
-
-If you're looking for something more, check out [Shards Dashboard Pro React](https://designrevision.com/downloads/shards-dashboard-pro-react/) which features many more custom templates and components. Use the `GITHUB15` coupon code for a **15% discount off the current price**.
-
-<br />
-
-### Built using
-
-- [Shards React](https://github.com/designrevision/shards-react)
-- [Chart.js](https://www.chartjs.org/)
-- [Flux](https://facebook.github.io/flux/)
-- [No UI Slider](https://refreshless.com/nouislider/)
-- [React Datepicker](https://www.npmjs.com/package/react-datepicker)
-- [Quill](https://quilljs.com/)
-
-<br />
-
-### Changelog
-
-Please check out the [CHANGELOG](CHANGELOG.md).
+- Email Us: support@deviasio.zendesk.com
+- [Follow us on Instagram](https://www.instagram.com/deviasio/)
